@@ -31,7 +31,7 @@ $(document).ready(function() {
  spectrum();
  function spectrum(){
     var hue = 'rgb(' + (Math.floor(Math.random() * 400)) + ',' + (Math.floor(Math.random() * 400)) + ',' + (Math.floor(Math.random() * 400)) + ')';
-    $('h1,p').animate( { color: hue }, 200);
+    $('h1,p').animate( { color: hue }, 2000);
     $('body').animate( { backgroundColor: hue }, 3000);
     spectrum();
  }
